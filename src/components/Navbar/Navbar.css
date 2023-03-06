@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    margin: 0;
+    padding: auto;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-size: 25px;
+    display: flex;
+    flex-direction: left;
+}
+
+.lista {
+    font-size: 20px;
+    display: flex;
+    margin: 60px;
+    list-style: none;
+}
+
+/*** ESTILOS BOTÓN SLIDE LEFT ***/
+.ov-btn-slide-left {
+    text-decoration: none;
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.ov-btn-slide-left:hover {
+    color: #fff;
+}
+
+.ov-btn-slide-left::after {
+    content: "";
+    background: #1c5276;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.ov-btn-slide-left:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.social {
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+}
