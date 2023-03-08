@@ -7,15 +7,15 @@
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 1.563rem;
     display: flex;
     flex-direction: left;
 }
 
 .lista {
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
-    margin: 60px;
+    margin: 3.75rem;
     list-style: none;
 }
 
@@ -24,9 +24,9 @@
     text-decoration: none;
     background: #000000;
     color: #ffffff;
-    border: 2px solid #ffffff;
-    padding: 20px;
-    border-radius: 3px;
+    border: 0.125rem solid #ffffff;
+    padding: 1.25rem;
+    border-radius: 0.188rem;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -42,7 +42,7 @@
     background: #1c5276;
     position: absolute;
     z-index: -1;
-    padding: 16px 20px;
+    padding: 1rem 1.25rem;
     display: block;
     top: 0;
     bottom: 0;
@@ -63,6 +63,6 @@
 
 .social {
     display: flex;
-    margin: 50px;
-    font-size: 30px;
+    margin: 3.125rem;
+    font-size: 1.875rem;
 }

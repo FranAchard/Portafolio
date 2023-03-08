@@ -1,9 +1,18 @@
 .title{
     color:white;
-    font-size:35px;
+    font-size:2.188rem;
 }
 .text{
     color:white;
-    width:400px;
-    font-size:20px;
+    width:25rem;
+    font-size:1.25rem;
+}
+.perfil{
+    width:12.5rem;
+    height:12.5rem;
+    position: relative;
+}
+.container2{
+    display: flex;
+    justify-content: center;
 }
